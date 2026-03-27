@@ -10,7 +10,7 @@ st.title("🚗 Car Price Prediction Model")
 
 st.write("Enter car details to predict the price")
 
-car_data = pd.read_csv("car data.csv")
+car_data = pd.read_csv("car_data.csv")
 
 present_price = st.slider("Present price(in lakhs)", 1.0, 50.0)
 kms_driven = st.slider("Number of kms driven: ", 11, 200000)
